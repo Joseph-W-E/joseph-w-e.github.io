@@ -34,11 +34,12 @@
     <a href="javascript:void()" onclick="w3_close()" class="w3-padding-32">CLOSE</a>
 
     <a href="#projects" onclick="w3_close()" class="w3-padding-16">PROJECTS</a>
-    <a href="#work_experience" onclick="w3_close()" class="w3-padding-16">WORK EXPERIENCE</a>
+    <a href="#about_me" onclick="w3_close()" class="w3-padding-16">ABOUT ME</a>
+    <a href="#languages" onclick="w3_close()" class="w3-padding-16">LANGUAGE FAMILIARITY</a>
     <a href="#resume" onclick="w3_close()" class="w3-padding-16">RESUME</a>
-    <a href="#reflections">REFLECTIONS</a>
-    <a href="#about_me">ABOUT ME</a>
-    <a href="#contact">CONTACT</a>
+    <a href="#work_experience" onclick="w3_close()" class="w3-padding-16">WORK EXPERIENCE</a>
+    <a href="#reflections" onclick="w3_close()" class="w3-padding-16">REFLECTIONS</a>
+    <a href="#contact" onclick="w3_close()" class="w3-padding-16">CONTACT</a>
   </nav>
 
   <!-- Top menu on small screens -->
@@ -54,22 +55,22 @@
   <div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
 
     <!-- Photo grid -->
-    <div class="w3-row w3-grayscale-min w3-center">
-      <div class="w3-quarter">
+    <div class="w3-row w3-grayscale-min w3-center" id="projects">
+      <div class="w3-third">
         <h2>Personal Projects</h2>
         <img src="./img/workout_calendar.png" class="img_project" onclick="onClick(this)" alt="Workout Calendar">
         <img src="./img/flowerpower.png" class="img_project" onclick="onClick(this)" alt="Analying A Plant">
         <img src="./img/spyfall.png" class="img_project" onclick="onClick(this)" alt="Spyfall (unofficial, (ad) free)">
       </div>
 
-      <div class="w3-quarter">
+      <div class="w3-third">
         <h2>Class Projects</h2>
         <img src="./img/workout_calendar.png" class="img_project" onclick="onClick(this)" alt="Study Buddy">
         <img src="./img/flowerpower.png" class="img_project" onclick="onClick(this)" alt="Temp">
         <img src="./img/spyfall.png" class="img_project" onclick="onClick(this)" alt="Temp">
       </div>
 
-      <div class="w3-quarter">
+      <div class="w3-third">
         <h2>Senior Design</h2>
         <img src="./img/workout_calendar.png" class="img_project" onclick="onClick(this)" alt="Temp">
         <img src="./img/flowerpower.png" class="img_project" onclick="onClick(this)" alt="Temp">
@@ -88,20 +89,20 @@
 
     <!-- About section -->
     <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about_me">
-      <h4><b>About Me</b></h4>
+      <h2><b>Hey there!</b></h2>
       <img src="./img/me.jpg" alt="Me" class="w3-image w3-padding-32 img_selfie" width="600" height="650">
       <div class="w3-content w3-justify" style="max-width:600px">
         <h4>Joey Elliott</h4>
         <p>
-          Well, a little about myself... To get the obvious out of the way, I love to program. I also enjoy basketball, biking, bouldering, camping, drawing, swimming, traveling, and eating food.
-          When it comes to programming, though, I love mobile development. I always have fun making a random mobile app, whether it's useful or not.
+          Welcome to my portfolio. To give a quick summary, this portfolio acts as a hub for my personal projects, work experience, and contact information.
+          Feel free to take a look around. The projects listed above are things I've done in my free time (personal projects), things I've done in a group (class projects), and information on my senior design project at Iowa State.
         </p>
         <p>
-          If you need to contact me for any reason, please feel free to email me.
+          So why programming? Well, I think it's genuinely fun. As far as goals in software engineering, I haven't really identified them; there's so much to discover in the programming world.
+          As far as a career objective, I hope to land a job somewhere where friendship and family is prioritized.
         </p>
-        <p>email: josephe@iastate.edu</p>
         <hr class="w3-opacity">
-        <h4 class="w3-padding-16">Language Familiarity</h4>
+        <h4 class="w3-padding-16" id="languages">Language Familiarity</h4>
         <p class="w3-wide">Java</p>
         <div class="w3-progress-container">
           <div class="w3-progressbar" style="width:95%"></div>
@@ -114,28 +115,35 @@
         <div class="w3-progress-container">
           <div class="w3-progressbar" style="width:40%"></div>
         </div>
-        <p><button class="w3-btn w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom w3-hover-black">Download Resume</button></p>
+        <p><button class="w3-btn w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom w3-hover-black" id="resume">Download Resume</button></p>
         <hr class="w3-opacity">
       </div>
     </div>
 
     <!-- Work experience section -->
-    <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
-      <h4 class="w3-center"><b>Work Experience</b></h4>
+    <div class="w3-container w3-grey w3-padding-32 w3-padding-large" id="work_experience">
+      <h2 class="w3-center"><b>Work Experience</b></h2>
       <div class="w3-row-padding">
         <div class="w3-third">
           <p>
-            <h6>Cerner</h6>
+            <h4><b>Cerner</b></h4>
             Summer of 2016 (internship, software engineer)
+            <br><b>Tasks</b>
             <br>Fixed defects in Maven projects.
             <br>Automated a client onboarding process in Ruby.
             <br>Agile development.
+            <br><b>Skills Learned</b>
+            <br>Maven, Ruby
+            <br><b>Final Presentation</b>
+            <br>Half a summer long project -> demoed in front of a team of 40ish
+            <br><b>Learned From Intern Experience</b>
+            <br>Jira, large Maven projects, corporate environment
           </p>
         </div>
 
         <div class="w3-third">
           <p>
-            <h6>Workiva</h6>
+            <h4><b>Workiva</b></h4>
             Summer of 2017 (internship, software engineer)
             <br>Hasn't happened yet!
           </p>
@@ -143,17 +151,36 @@
 
         <div class="w3-third">
           <p>
-            <h6>Iowa State University</h6>
-            February 2016 -> now (part-time job)
-            <br>Computer science and software engineering tutor.
-            <br>Help students with a variety of classes (freshman level to senior level).
+            <h4><b>Iowa State University</b></h4>
+            February 2016 -> now (part-time job, tutor)
+            <br><b>Tasks</b>
+            <br>Tutor students in Computer Science and Software Engineering classes.
+            <br><b>Skills Learned</b>
+            <br>Communication
+            <br>Patience
+            <br><b>Learned From Job Experience</b>
+            <br>Everyone has a different learning curve - patience is a virtue
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="w3-container w3-padding-32 w3-grey">
+    <!-- Reflections section -->
+    <div class="w3-container w3-light-grey w3-center w3-padding-32" id="reflections">
+      <h2>Reflections</h2>
+      <div class="w3-row-padding">
+        <div class="w3-half">
+          <p><a href="./fil/se_reflection.pdf"><h4>SE Reflection</h4></a></p>
+        </div>
+        <div class="w3-half">
+          <p><a href="./fil/gen_ed_reflection.pdf"><h4>Gen Ed Reflection</h4></a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer (Contact) -->
+    <footer class="w3-container w3-padding-32 w3-dark-grey" id="contact">
+      <h2 class="w3-center">Contact</h2>
       <div class="w3-row-padding">
         <div class="w3-third">
           <h3>Linkedin</h3>
@@ -166,8 +193,8 @@
         </div>
 
         <div class="w3-third">
-          <h3>Battle.net</h3>
-          <p>Who doesn't enjoy a good <a href="">video game or two.</a></p>
+          <h3>Email</h3>
+          <p>Feel free to email me at <a href="mailto:joseph@iastate.edu">josephe@iastate.edu</a></p>
         </div>
       </div>
     </footer>
