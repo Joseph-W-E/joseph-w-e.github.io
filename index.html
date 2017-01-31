@@ -15,11 +15,11 @@
     body,h1,h2,h3,h4,h5 {
       font-family: "Raleway", sans-serif
     }
-    .w3-quarter img {
+    .w3-third img {
       margin-bottom: -6px; cursor: pointer
     }
-    .w3-quarter img:hover {
-      opacity: 0.6; transition: 0.3s
+    .w3-third img:hover {
+      opacity: 0.6; transition: 0.3s;
     }
   </style>
 
@@ -54,27 +54,30 @@
   <!-- !PAGE CONTENT! -->
   <div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
 
+    <!-- Push down content on small screens -->
+    <div class="w3-hide-large" style="margin-top:83px"></div>
+
     <!-- Photo grid -->
     <div class="w3-row w3-grayscale-min w3-center" id="projects">
       <div class="w3-third">
         <h2>Personal Projects</h2>
         <img src="./img/workout_calendar.png" class="img_project" onclick="onClick(this)" alt="Workout Calendar">
-        <img src="./img/flowerpower.png" class="img_project" onclick="onClick(this)" alt="Analying A Plant">
-        <img src="./img/spyfall.png" class="img_project" onclick="onClick(this)" alt="Spyfall (unofficial, (ad) free)">
+        <img src="./img/flowerpower.png" class="img_project" onclick="onClick(this)" alt="Flower Power">
+        <img src="./img/spyfall.png" class="img_project" onclick="onClick(this)" alt="Spyfall (fanmade)">
       </div>
 
       <div class="w3-third">
         <h2>Class Projects</h2>
-        <img src="./img/workout_calendar.png" class="img_project" onclick="onClick(this)" alt="Study Buddy">
-        <img src="./img/flowerpower.png" class="img_project" onclick="onClick(this)" alt="Temp">
-        <img src="./img/spyfall.png" class="img_project" onclick="onClick(this)" alt="Temp">
+        <img src="./img/study_buddy.png" class="img_project" onclick="onClick(this)" alt="Study Buddy">
+        <img src="./img/robot.png" class="img_project" onclick="onClick(this)" alt="Robot">
+        <img src="./img/sound_generator.png" class="img_project" onclick="onClick(this)" alt="Sound Generator">
       </div>
 
       <div class="w3-third">
         <h2>Senior Design</h2>
-        <img src="./img/workout_calendar.png" class="img_project" onclick="onClick(this)" alt="Temp">
-        <img src="./img/flowerpower.png" class="img_project" onclick="onClick(this)" alt="Temp">
-        <img src="./img/spyfall.png" class="img_project" onclick="onClick(this)" alt="Temp">
+        <img src="./img/concept.png" class="img_project" onclick="onClick(this)" alt="Concept">
+        <img src="./img/team.png" class="img_project" onclick="onClick(this)" alt="Team">
+        <img src="./img/goal.png" class="img_project" onclick="onClick(this)" alt="Goal">
       </div>
     </div>
 
@@ -82,8 +85,8 @@
     <div id="modal01" class="w3-modal w3-black w3-padding-0" onclick="this.style.display='none'">
       <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-container w3-display-topright">×</span>
       <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-        <img id="img01" class="w3-image">
         <p id="caption"></p>
+        <img id="img01" class="w3-image">
       </div>
     </div>
 
