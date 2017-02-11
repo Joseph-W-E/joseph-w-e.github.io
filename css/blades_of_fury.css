@@ -1,0 +1,25 @@
+.progress-container {
+  height: 40px;
+  margin: 10px;
+}
+
+.progress-container .text {
+  text-align: right;
+  font-size: 20px;
+}
+
+.progress-bar {
+  border-radius: 1%;
+}
+
+.divider {
+  width: 40%;
+  height: 8px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.circular-square {
+  border-radius: 50%;
+}

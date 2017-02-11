@@ -3,279 +3,462 @@
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Joey Elliott">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <link rel="stylesheet" type="text/css" href="./css/w3.css">
-  <link rel="stylesheet" type="text/css" href="./css/main.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <title>Joseph Elliott</title>
 
-  <style>
-    body,h1,h2,h3,h4,h5 {
-      font-family: "Raleway", sans-serif
-    }
-    .w3-third img {
-      margin-bottom: -6px; cursor: pointer
-    }
-    .w3-third img:hover {
-      opacity: 0.6; transition: 0.3s;
-    }
-  </style>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <title>Joey Elliott</title>
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/blades_of_fury.css"  type="text/css" rel="stylesheet">
+    <link href="css/palette.css"  type="text/css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
 </head>
 
-<body id="page-top" class="we-light-grey">
+<body id="page-top" class="index">
 
-  <!-- Sidenav/menu -->
-  <nav class="w3-sidenav w3-black w3-animate-right w3-center w3-top w3-text-light-grey w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidenav">
-    <a href="javascript:void()" onclick="w3_close()" class="w3-padding-32">CLOSE</a>
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom bkrd-primary-dark">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Hey There</a>
+            </div>
 
-    <a href="#projects" onclick="w3_close()" class="w3-padding-16">PROJECTS</a>
-    <a href="#about_me" onclick="w3_close()" class="w3-padding-16">ABOUT ME</a>
-    <a href="#languages" onclick="w3_close()" class="w3-padding-16">LANGUAGE FAMILIARITY</a>
-    <a href="#resume" onclick="w3_close()" class="w3-padding-16">RESUME</a>
-    <a href="#work_experience" onclick="w3_close()" class="w3-padding-16">WORK EXPERIENCE</a>
-    <a href="#reflections" onclick="w3_close()" class="w3-padding-16">REFLECTIONS</a>
-    <a href="#contact" onclick="w3_close()" class="w3-padding-16">CONTACT</a>
-  </nav>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about_me">About Me</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#work_experience">Work Experience</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#resume">Resume</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#reflections">Reflections</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-  <!-- Top menu on small screens -->
-  <header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
-    <span class="w3-left w3-padding">JOEY ELLIOTT</span>
-    <a href="javascript:void(0)" class="w3-right w3-btn w3-white" onclick="w3_open()">☰</a>
-  </header>
+    <!-- Header -->
+    <header class="bkrd-accent">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive circular-square" style="width: 20%;" src="img/me.jpg" alt="Me">
+                    <div class="intro-text">
+                        <span class="name">Joseph Elliott</span>
+                        <div class="divider bkrd-white"></div>
+                        <span class="skills">Android Developer - Software Engineer - Video Game Enthusiast</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-  <!-- Overlay effect when opening sidenav on small screens -->
-  <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+    <!-- Project Grid Section -->
+    <section id="projects">
+        <div class="container txt-primary-dark">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Projects</h2>
+                    <div class="divider bkrd-primary-dark"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <img src="img/projects/workout_calendar.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <img src="img/projects/study_buddy.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <img src="img/projects/spyfall.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- !PAGE CONTENT! -->
-  <div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
+    <!-- About Me Section -->
+    <section class="success bkrd-accent" id="about_me">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About Me</h2>
+                    <div class="divider bkrd-white"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>
+                      Welcome to my portfolio. To give a quick summary, this portfolio acts as a hub for my personal projects, work experience, and contact information. The projects listed above are things I've done in my free time (personal projects), things I've done in a group (class projects), and information on my senior design project at Iowa State.
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <p>
+                      So why programming? Well, I think it's genuinely fun. As far as goals in software engineering, I haven't really identified them; there's so much to discover in the programming world. As far as a career objective, I hope to land a job somewhere where friendship and family is prioritized.
+                    </p>
+                </div>
 
-    <!-- Push down content on small screens -->
-    <div class="w3-hide-large" style="margin-top:83px"></div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                  <h4>Language Familiarity</h4>
+                  <div class="progress-container">
+                    <div class="progress-bar bkrd-white" style="width: 80%;"></div>
+                    <div class="text">Java</div>
+                  </div>
+                  <div class="progress-container">
+                    <div class="progress-bar bkrd-white" style="width: 30%;"></div>
+                    <div class="text">Ruby</div>
+                  </div>
+                  <div class="progress-container">
+                    <div class="progress-bar bkrd-white" style="width: 20%;"></div>
+                    <div class="text">C / C++</div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Photo grid -->
-    <div class="w3-row w3-grayscale-min w3-center" id="projects">
-      <div class="w3-third crop_row">
-        <h2>Personal Projects</h2>
-        <div class="w3-content">
-          <h4><a href="https://github.com/Joseph-W-E/WorkoutCalendar">Workout Calendar</a></h4>
-          <p>Built on Android
-            <br>A simple tool for keeping track of workouts.
-            <br>It was built using a minimal amount of external libraries.
-            <br>It uses SQLite for the database.
-          </p>
-          <img src="./img/workout_calendar.png" alt="Workout Calendar">
+    <!-- Work Experience Section -->
+    <section id="work_experience">
+        <div class="container txt-primary-dark">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Work Experience</h2>
+                    <div class="divider bkrd-primary-dark"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                  <p>
+                    <h4><b>Cerner</b></h4>
+                    Summer of 2016 (internship, software engineer)
+                    <br><b>Tasks</b>
+                    <br>Fixed defects in Maven projects.
+                    <br>Automated a client onboarding process in Ruby.
+                    <br>Agile development.
+                    <br><b>Skills Learned</b>
+                    <br>Maven, Ruby
+                    <br><b>Final Presentation</b>
+                    <br>Half a summer long project -> demoed in front of a team of 40ish
+                    <br><b>Learned From Intern Experience</b>
+                    <br>Jira, large Maven projects, corporate environment
+                  </p>
+                </div>
+                <div class="col-lg-4">
+                  <p>
+                    <h4><b>Workiva</b></h4>
+                    Summer of 2017 (internship, software engineer)
+                    <br>Hasn't happened yet!
+                  </p>
+                </div>
+                <div class="col-lg-4">
+                  <p>
+                    <h4><b>Iowa State University</b></h4>
+                    February 2016 -> now (part-time job, tutor)
+                    <br><b>Tasks</b>
+                    <br>Tutor students in Computer Science and Software Engineering classes.
+                    <br><b>Skills Learned</b>
+                    <br>Communication
+                    <br>Patience
+                    <br><b>Learned From Job Experience</b>
+                    <br>Everyone has a different learning curve - patience is a virtue
+                  </p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center txt-secondary">
+                    <a href="fil/Elliott_Joseph_Resume.pdf" class="btn btn-lg btn-outline bkrd-primary">
+                        <i class="fa fa-download" id="resume"></i> Checkout My Resume
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="w3-content">
-          <h4><a href="https://github.com/Joseph-W-E/FlowerPower">Flower Power</a></h4>
-          <p>Built on Android
-            <br>A tool for calculating a relative healthiness value for a plant.
-            <br>It uses Breadth-First-Search for maximum pixel coverage.
-            <br>Est. runtime for 1440x2560 is 20 seconds.
-          </p>
-          <img src="./img/flowerpower.png" alt="Flower Power">
-        </div>
-        <div class="w3-content">
-          <h4><a href="https://github.com/Joseph-W-E/Spyfall">Spyfall (fanmade)</a></h4>
-          <p>Built on Android - A fanmade game for Spyfall.
-          <br>No internet required. Friends required.</p>
-          <img src="./img/spyfall.png" alt="Spyfall (fanmade)">
-        </div>
-      </div>
+    </section>
 
-      <div class="w3-third crop_row">
-        <h2>Class Projects</h2>
-        <div class="w3-content">
-          <h4><a href="https://github.com/woodring63/StudyBuddy">Study Buddy</a></h4>
-          <p>Built on Android
-            <br>Team: Me, Evan Woodring, Erica Clark, and Nathan Gilbert.
-            <br>Allows students to study together, all joined on Google Maps.
-            <br>Contains multiple productivity tools within a study session.
-          </p>
-          <img src="./img/study_buddy.png" alt="Study Buddy">
+    <!-- Reflections Section -->
+    <section class="success bkrd-accent" id="reflections">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Reflections</h2>
+                    <div class="divider bkrd-white"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                  <a href="fil/gen_ed_reflection.pdf" class="btn btn-lg btn-outline">
+                      <i class="fa fa-download" id="resume"></i> Gen Eds
+                  </a>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2">
+                  <a href="fil/se_reflection.pdf" class="btn btn-lg btn-outline">
+                      <i class="fa fa-download" id="resume"></i> Soft E
+                  </a>
+                </div>
+            </div>
         </div>
-        <div class="w3-content">
-          <h4>CprE 288 Robot Final Project</h4>
-          <p>Built with C
-            <br>Team: Me, Evan Woodring, and Cory Itzen.
-            <br>Allows a robot to move through an obstacle course.
-            <br>Not my image, but is from the same class and of the same robot.
-          </p>
-          <img src="./img/robot.jpg" style="width: auto; height: 100%; margin: -5px 0 0 -500px;" alt="Robot">
-        </div>
-        <div class="w3-content">
-          <h4><a href="https://github.com/Joseph-W-E/SoundGenerator/tree/master/Documentation">Sound Generator</a></h4>
-          <p>Built with C / C++.
-            <br>Allows muiltiple things, like generator sounds in an ADSR envelope, mixing sound files, and concatenating sound files.
-            <br>Note that these sound files are custom, text-file sound files.
-          </p>
-          <img src="./img/sndgen.png" alt="Sound Generator">
-        </div>
-      </div>
+    </section>
 
-      <div class="w3-third crop_row">
-        <h2>Senior Design</h2>
-        <div class="w3-content">
-          <h4>Concept</h4>
-          <p>Built with C++ and Intel RealSense
-            <br>Allows the user to scan an object and compare it to a CAD model to determine assembly errors.
-          </p>
-          <img src="./img/concept.png" alt="Concept">
+    <!-- Footer -->
+    <footer class="text-center" id="contact">
+        <div class="footer-above" style="min-height: 500px;">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Iowa State University</h3>
+                        <p>I'm still a student!</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Sites</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Contact</h3>
+                        <p>Checkout the links to the left.
+                          <br>You can also email me at:
+                          <br>josephe@iastate.edu
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="w3-content">
-          <h4>Team</h4>
-          <p>
-            Myself, Evan Woodring, Nick Gerleman, and Cory Itzen.
-          </p>
-          <img src="./img/team.png" alt="Team">
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Have a great day :)
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="w3-content">
-          <h4>Demo</h4>
-          <p>
-            Click here for a quick demo.
-          </p>
-          <img src="./img/demo.png" alt="Demo">
-        </div>
-      </div>
-    </div>
-
-    <!-- About section -->
-    <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about_me">
-      <h2><b>Hey there!</b></h2>
-      <div class="crop_me w3-content">
-        <img src="./img/me.jpg" alt="Me">
-      </div>
-      <div class="w3-content w3-justify" style="max-width:600px">
-        <h4>Joey Elliott</h4>
-        <p>
-          Welcome to my portfolio. To give a quick summary, this portfolio acts as a hub for my personal projects, work experience, and contact information.
-          Feel free to take a look around. The projects listed above are things I've done in my free time (personal projects), things I've done in a group (class projects), and information on my senior design project at Iowa State.
-        </p>
-        <p>
-          So why programming? Well, I think it's genuinely fun. As far as goals in software engineering, I haven't really identified them; there's so much to discover in the programming world.
-          As far as a career objective, I hope to land a job somewhere where friendship and family is prioritized.
-        </p>
-        <hr class="w3-opacity">
-        <h4 class="w3-padding-16" id="languages">Language Familiarity</h4>
-        <p class="w3-wide">Java</p>
-        <div class="w3-progress-container">
-          <div class="w3-progressbar" style="width:95%"></div>
-        </div>
-        <p class="w3-wide">Ruby</p>
-        <div class="w3-progress-container">
-          <div class="w3-progressbar" style="width:60%"></div>
-        </div>
-        <p class="w3-wide">C</p>
-        <div class="w3-progress-container">
-          <div class="w3-progressbar" style="width:40%"></div>
-        </div>
-        <p><button class="w3-btn w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom w3-hover-black" id="resume">Download Resume</button></p>
-        <hr class="w3-opacity">
-      </div>
-    </div>
-
-    <!-- Work experience section -->
-    <div class="w3-container w3-grey w3-padding-32 w3-padding-large" id="work_experience">
-      <h2 class="w3-center"><b>Work Experience</b></h2>
-      <div class="w3-row-padding">
-        <div class="w3-third">
-          <p>
-            <h4><b>Cerner</b></h4>
-            Summer of 2016 (internship, software engineer)
-            <br><b>Tasks</b>
-            <br>Fixed defects in Maven projects.
-            <br>Automated a client onboarding process in Ruby.
-            <br>Agile development.
-            <br><b>Skills Learned</b>
-            <br>Maven, Ruby
-            <br><b>Final Presentation</b>
-            <br>Half a summer long project -> demoed in front of a team of 40ish
-            <br><b>Learned From Intern Experience</b>
-            <br>Jira, large Maven projects, corporate environment
-          </p>
-        </div>
-
-        <div class="w3-third">
-          <p>
-            <h4><b>Workiva</b></h4>
-            Summer of 2017 (internship, software engineer)
-            <br>Hasn't happened yet!
-          </p>
-        </div>
-
-        <div class="w3-third">
-          <p>
-            <h4><b>Iowa State University</b></h4>
-            February 2016 -> now (part-time job, tutor)
-            <br><b>Tasks</b>
-            <br>Tutor students in Computer Science and Software Engineering classes.
-            <br><b>Skills Learned</b>
-            <br>Communication
-            <br>Patience
-            <br><b>Learned From Job Experience</b>
-            <br>Everyone has a different learning curve - patience is a virtue
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Reflections section -->
-    <div class="w3-container w3-light-grey w3-center w3-padding-32" id="reflections">
-      <h2>Reflections</h2>
-      <div class="w3-row-padding">
-        <div class="w3-half">
-          <p><a href="./fil/se_reflection.pdf"><h4>SE Reflection</h4></a></p>
-        </div>
-        <div class="w3-half">
-          <p><a href="./fil/gen_ed_reflection.pdf"><h4>Gen Ed Reflection</h4></a></p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Footer (Contact) -->
-    <footer class="w3-container w3-padding-32 w3-dark-grey" id="contact">
-      <h2 class="w3-center">Contact</h2>
-      <div class="w3-row-padding">
-        <div class="w3-third">
-          <h3>Linkedin</h3>
-          <p>Come check me out on <a href="https://www.linkedin.com/in/joseph-elliott-479167128">Linkedin</a>.</p>
-        </div>
-
-        <div class="w3-third">
-          <h3>Github</h3>
-          <p>I also made a lot of my <a href="https://www.github.com/joseph-w-e">code free to see.</a></p>
-        </div>
-
-        <div class="w3-third">
-          <h3>Email</h3>
-          <p>Feel free to email me at <a href="mailto:joseph@iastate.edu">josephe@iastate.edu</a></p>
-        </div>
-      </div>
     </footer>
 
-    <div class="w3-black w3-center w3-padding-8">
-      <p>Have a great day :)</p>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
     </div>
 
-  <!-- End page content -->
-  </div>
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Workout Calendar</h2>
+                            <img src="img/projects/workout_calendar.png" class="img-responsive img-centered" style="width: 50%;" alt="Workout Calendar">
+                            <h3>Description</h3>
+                            <p>
+                              A simple app for keeping track of workouts.
+                              The goal of this project was only to learn more about Android, but also make something useful.
+                              As of now, you can create text-based workouts and store them for later viewing in the calendar.
+                            </p>
+                            <h3>Technologies Used</h3>
+                            <p>
+                              Android - SQLite
+                            </p>
+                            <h3>What I Learned</h3>
+                            <p>
+                              how to use databases - how to create responsive UIs - how to incorporate 3rd party libraries
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>Team Size:
+                                    <strong>
+                                      1
+                                    </strong>
+                                </li>
+                                <li>Role:
+                                    <strong>
+                                      Lead Developer
+                                    </strong>
+                                </li>
+                                <li>Link:
+                                    <strong>
+                                      <a href="https://github.com/Joseph-W-E/WorkoutCalendar">Github</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  <script>
-    // Script to open and close sidenav
-    function w3_open() {
-      document.getElementById("mySidenav").style.display = "block";
-      document.getElementById("myOverlay").style.display = "block";
-    }
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                  <div class="rl">
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Study Buddy</h2>
+                          <img src="img/projects/study_buddy.png" class="img-responsive img-centered" style="width: 50%;" alt="Study Buddy">
+                          <h3>Description</h3>
+                          <p>
+                            An app that incorporates Google Maps to allow students to study together.
+                            It contains multiple productivity tools within a study session, like a whiteboard, messenger, and todo-list.
+                          </p>
+                          <h3>Technologies Used</h3>
+                          <p>
+                            Android - Retrofit - Google Maps
+                          </p>
+                          <h3>What I Learned</h3>
+                          <p>
+                            how to make interactable activities<br>how to make REST calls<br>how to mock synchronization between devices
+                          </p>
+                          <ul class="list-inline item-details">
+                              <li>Team Size:
+                                  <strong>
+                                    4
+                                  </strong>
+                              </li>
+                              <li>Role:
+                                  <strong>
+                                    Application Developer (built whiteboard, tasks, and various bits and pieces)
+                                  </strong>
+                              </li>
+                              <li>Link:
+                                  <strong>
+                                    <a href="https://github.com/woodring63/StudyBuddy">Github</a>
+                                  </strong>
+                              </li>
+                          </ul>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
 
-    function w3_close() {
-      document.getElementById("mySidenav").style.display = "none";
-      document.getElementById("myOverlay").style.display = "none";
-    }
-  </script>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                  <div class="rl">
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Spyfall</h2>
+                          <img src="img/projects/spyfall.png" class="img-responsive img-centered" style="width: 50%;" alt="Spyfall (fanmade)">
+                          <h3>Description</h3>
+                          <p>
+                            A quickly whipped up Android version of the popular board game "Spyfall".
+                            This project came about because the online version kept crashing.
+                            I made this version to do some match on randomly generated codes to determine player information.
+                            This way, no internet is required.
+                          </p>
+                          <h3>Technologies Used</h3>
+                          <p>
+                            Android
+                          </p>
+                          <h3>What I Learned</h3>
+                          <p>
+                            how to style / theme Android apps<br>how to create effective modules
+                          </p>
+                          <ul class="list-inline item-details">
+                              <li>Team Size:
+                                  <strong>
+                                    1
+                                  </strong>
+                              </li>
+                              <li>Role:
+                                  <strong>
+                                    Lead Developer
+                                  </strong>
+                              </li>
+                              <li>Link:
+                                  <strong>
+                                    <a href="https://github.com/Joseph-W-E/Spyfall">Github</a>
+                                  </strong>
+                              </li>
+                          </ul>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
 
 </body>
 
